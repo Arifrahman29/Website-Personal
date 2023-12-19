@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@next/dist/aos.css"
+    />
+
+    <!-- MY CSS -->
+    <style>
+      .jumbotron {
+        padding-top: 6rem;
+        background-color: #e2edff;
+      }
+
+      .about {
+        background-color: #e2edff;
+      }
+
+      body {
+        background-color: #e2edff;
+      }
+
+      section {
+        padding-top: 5rem;
+      }
+    </style>
+    <title>MY PORTOFOLIO</title>
+  </head>
+
+  <body id="home">
+    <!-- Loader -->
+    <div
+      id="loader-container"
+      class="loader-container"
+    >
+      <div class="Loader">
+        <img
+          src="luffy.gif"
+          alt="LOADING...."
+          width="180"
+        />
+      </div>
+    </div>
+    <!-- Loader akhir -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="index.html"
+          >ARIF RAHMAN</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#content"
+                >Content</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                List
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 1</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 2</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 3</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 4</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 5</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 6</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 7</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 8</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 9</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 10</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 11</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 12</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 13</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    >Pertemuan 14</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img
+        src="arif.png"
+        alt="Arif rahman"
+        width="180"
+        class="rounded-circle img-thumbnail"
+      />
+      <h1 class="display-md-4 fw-bold fs-3 text-center">ARIF RAHMAN</h1>
+      <p class="lead fst-italic"></p>
+    </section>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#FFF"
+        fill-opacity="1"
+        d="M0,96L48,122.7C96,149,192,203,288,192C384,181,480,107,576,106.7C672,107,768,181,864,202.7C960,224,1056,192,1152,165.3C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#FFF"
+        fill-opacity="1"
+        d="M0,96L48,122.7C96,149,192,203,288,192C384,181,480,107,576,106.7C672,107,768,181,864,202.7C960,224,1056,192,1152,165.3C1248,139,1344,117,1392,106.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- Jumbotron akhir -->
+
+    <!-- About -->
+    <section
+      class="about"
+      id="about"
+    >
+      <dic class="container">
+        <div
+          class="row text-center mb-3"
+          data-aos="zoom-in"
+        >
+          <div class="col">
+            <h2>About me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center fst-italic" data-aos="zoom-in" data-aos-duration="200>
+        <div class="col-md-4 fs-6">
+          <p>ARIF RAHMAN<br />(19th)<br />Jalan damai III kota tangerang<br />mahasiswa<br />Universitas pamulang</p>
+        </div>
+      </dic>
+    </section>
+    <!-- About akhir -->
+
+    <!-- Content -->
+    <section
+      id="content"
+      style="background-color: #e2edff"
+    >
+      <div class="container">
+        <div
+          class="row text-center mb-3"
+          data-aos="zoom-in"
+        >
+          <div class="col">
+            <h2>My content</h2>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div
+            class="col-md-4 mb-3"
+            ;
+          >
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+            >
+              <img
+                src="1.png"
+                class="card-img-top"
+                alt="Pengenalan Komputer"
+              />
+              <div class="card-body">
+                <p class="card-text">Pengenalan Komputer</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="50"
+            >
+              <img
+                src="2.jpg"
+                class="card-img-top"
+                alt="Sejarah,Perkembangan dan Kritik Tentang Teknologi"
+              />
+              <div class="card-body">
+                <p class="card-text">Sejarah,Perkembangan dan Kritik Tentang Teknologi</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="100"
+            >
+              <img
+                src="3.jpg"
+                class="card-img-top"
+                alt="Pemanfaatan Komputer di Masyarakat"
+              />
+              <div class="card-body">
+                <p class="card-text">Pemanfaatan Komputer di Masyarakat</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="150"
+            >
+              <img
+                src="4.jpg"
+                class="card-img-top"
+                alt="Komputer dan Pendidikan"
+              />
+              <div class="card-body">
+                <p class="card-text">Komputer dan Pendidikan</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="200"
+            >
+              <img
+                src="5.jpg"
+                class="card-img-top"
+                alt="Komputer dan Pemerintahan"
+              />
+              <div class="card-body">
+                <p class="card-text">Komputer dan Pemerintahan</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="250"
+            >
+              <img
+                src="6.jpg"
+                class="card-img-top"
+                alt="Komputer dan Indrustri"
+              />
+              <div class="card-body">
+                <p class="card-text">Komputer dan Indrustri</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="300"
+            >
+              <img
+                src="7.jpg"
+                class="card-img-top"
+                alt="Masyarakat Informasi"
+              />
+              <div class="card-body">
+                <p class="card-text">Masyarakat Informasi</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="350"
+            >
+              <img
+                src="8.png"
+                class="card-img-top"
+                alt="Ciri-Ciri Masyarakat Dengan Teknologi Informasi Moderen"
+              />
+              <div class="card-body">
+                <p class="card-text">Ciri-Ciri Masyarakat Dengan Teknologi Informasi Moderen</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="400"
+            >
+              <img
+                src="9.jpg"
+                class="card-img-top"
+                alt="Dunia Usaha"
+              />
+              <div class="card-body">
+                <p class="card-text">Dunia Usaha</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="450"
+            >
+              <img
+                src="10.jpg"
+                class="card-img-top"
+                alt="Sistem E-Commerce dan E-Business"
+              />
+              <div class="card-body">
+                <p class="card-text">Sistem E-Commerce dan E-Business</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="500"
+            >
+              <img
+                src="11.jpg"
+                class="card-img-top"
+                alt="Keamanan Sistem Informasi dan Etika"
+              />
+              <div class="card-body">
+                <p class="card-text">Keamanan Sistem Informasi dan Etika</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="550"
+            >
+              <img
+                src="12.jpg"
+                class="card-img-top"
+                alt="Privacy dan Kejahatan Komputer"
+              />
+              <div class="card-body">
+                <p class="card-text">Privacy dan Kejahatan Komputer</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="553"
+            >
+              <img
+                src="13.jpg"
+                class="card-img-top"
+                alt="Etika dan Profesionalisme"
+              />
+              <div class="card-body">
+                <p class="card-text">Etika dan Profesionalisme</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="500"
+              data-aos-delay="630"
+            >
+              <img
+                src="14.jpg"
+                class="card-img-top"
+                alt="Etika Penggunaan Komputer"
+              />
+              <div class="card-body">
+                <p class="card-text">Etika Penggunaan Komputer</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#FFF"
+        fill-opacity="1"
+        d="M0,96L48,122.7C96,149,192,203,288,192C384,181,480,107,576,106.7C672,107,768,181,864,202.7C960,224,1056,192,1152,165.3C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#FFF"
+        fill-opacity="1"
+        d="M0,96L48,122.7C96,149,192,203,288,192C384,181,480,107,576,106.7C672,107,768,181,864,202.7C960,224,1056,192,1152,165.3C1248,139,1344,117,1392,106.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- content akhir -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div
+        class="container"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div
+              class="alert alert-success alert-dismissible fade show d-none"
+              role="alert"
+            >
+              <strong>Terimakasih!</strong> Pesan anda sudah terkirim.
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
+            <form name="portofolio-contact-forms">
+              <div class="mb-3">
+                <label
+                  for="Name"
+                  class="form-label"
+                  >Nama Lengkap</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Name"
+                  aria-describedby="Name"
+                  name="nama"
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="Email"
+                  class="form-label"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="Email"
+                  aria-describedby="Email"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="Pesan"
+                  class="form-label"
+                  >Pesan</label
+                >
+                <textarea
+                  class="form-control"
+                  id="Pesan"
+                  rows="3"
+                  name="pesan"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary btn-kirim"
+              >
+                Kirim
+              </button>
+              <button
+                class="btn btn-primary btn-loading d-none"
+                type="button"
+                disabled
+              >
+                <span
+                  class="spinner-border spinner-border-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,96L48,122.7C96,149,192,203,288,192C384,181,480,107,576,106.7C672,107,768,181,864,202.7C960,224,1056,192,1152,165.3C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Contact akhir -->
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center pb-5">
+      <p>
+        Created with <a href="monyet.jpg"><i class="bi bi-heart-fill text-danger"></i></a> by
+        <a
+          href="https://www.instagram.com/_arifrahman29/"
+          class="text-white fw-bold"
+          >Arif rahman</a
+        >
+      </p>
+    </footer>
+    <!-- Footer akhir -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', { duration: 2, delay: 5, text: 'Mahasiswa | Karyawan' });
+      gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0, delay: 4.1 });
+      gsap.from('.navbar', { duration: 1.5, y: '-100', opacity: 0, ease: 'bounce', delay: 4 });
+      gsap.from('.display-md-4', { duration: 1, x: '-50', opacity: 0, delay: 4.5, ease: 'back' });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxkvTKierKozhaxMUlBkfcpLyr4yrERpo1ffQ5GrJhR2eBLNQjxqgg5AK5opaqqQys/exec';
+      const form = document.forms['portofolio-contact-forms'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const alert = document.querySelector('.alert');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            alert.classList.toggle('d-none');
+            form.reset();
+            console.log('Success!', response);
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+  </body>
+</html>
